@@ -1,0 +1,44 @@
+button {
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: #30475e;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    color: black;
+    background: darkgreen;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#lista-deputados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    width: 90%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+
+li {
+    margin: 5px 0;
+}
+
+li:hover {
+    background: rgb(36, 47, 58);
+}

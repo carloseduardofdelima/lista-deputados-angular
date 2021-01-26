@@ -1,0 +1,11 @@
+
+Nome do deputado: <input type="text" name="nome" id="nome" [(ngModel)]="nome">
+<button (click)="pesquisarDeputado()">Pesquisar</button>
+
+<h1>Deputados</h1>
+
+<section id="lista-deputados">
+    <ul>
+        <li *ngFor="let dep of deputados">{{dep.nome}}, {{dep.siglaUf}}</li>
+    </ul>
+</section>
